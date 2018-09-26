@@ -1,0 +1,25 @@
+<svg>
+  <text id="header-text" x="5%" y="25%" width="75%" fill="fb-white" font-size="34"></text>
+  <text id="main-text" x="5%" y="50%" width="90%" fill="fb-white" font-size="40">Fetching info...</text>
+  <text id="footer-text" x="5%" y="75%" width="75%" fill="fb-white" font-size="30"></text>
+  
+  <!-- TOP RIGHT -->
+  <use id="btn-tr" href="#combo-button-upper-right" fill="fb-white">
+    <set href="combo-button-icon" attributeName="href" to=""/>
+    <set href="combo-button-icon-press" attributeName="href" to=""/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+  <!-- BOTTOM RIGHT -->
+  <use id="btn-br" href="#combo-button-lower-right" fill="fb-white">
+    <set href="combo-button-icon" attributeName="href" to=""/>
+    <set href="combo-button-icon-press" attributeName="href" to=""/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+  
+  <image id='combo-icon-tr' width="40" height="40" x="298" y="7" fill="fb-blue" href="icn_musictray_more_p.png" />
+  <image id='combo-icon-br' width="40" height="40" x="298" y="204" fill="fb-blue" href="icn_musictray_play_p.png" />
+  
+  <rect x="5%" y="220" width="220" height="16" fill="fb-white" />
+  <rect x="5%+3" y="222" width="214" height="12" fill="fb-black" />
+  <rect id="progress-bar" x="5%+5" y="225" width="0" height="6" fill="fb-white" />
+</svg>
